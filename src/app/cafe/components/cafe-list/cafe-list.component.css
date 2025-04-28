@@ -1,0 +1,20 @@
+.custom-header {
+    background-color: #333A40 !important;
+}
+.custom-header th {
+    color: white;
+}
+tbody td {
+    border-bottom: 2px solid #333A40;
+}
+  
+tbody tr, thead th {
+    border: none !important;
+}
+* {
+    font-family: 'Inter', sans-serif;
+  }
+  
+  h2 {
+    font-family: 'Inder', sans-serif;
+  }

@@ -1,0 +1,25 @@
+<h2>El aroma mágico</h2>
+
+<img src="https://raw.githubusercontent.com/Santi-MISO/Imagenes_ProyectoPeliculas/refs/heads/main/Cafe.png">
+
+<table class="table table-striped">
+  <thead class="custom-header">
+    <tr>
+      <th>#</th>
+      <th>Nombre</th>
+      <th>Tipo</th>
+      <th>Región</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let cafe of cafes; let i = index">
+      <td><strong>{{ i + 1 }}</strong></td>
+      <td>{{ cafe.nombre }}</td>
+      <td>{{ cafe.tipo }}</td>
+      <td>{{ cafe.region }}</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Total café de origen:</strong> {{ totalOrigen }}</p>
+<p><strong>Total café blend:</strong> {{ totalBlend }}</p>
