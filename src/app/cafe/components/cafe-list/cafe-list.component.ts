@@ -14,7 +14,7 @@ export class CafeListComponent implements OnInit {
   totalOrigen: number = 0;
   totalBlend: number = 0;
   contarTipos() {
-    this.totalOrigen = this.cafes.filter(cafe => cafe.tipo.toLowerCase() === 'origen').length;
+    this.totalOrigen = this.cafes.filter(cafe => cafe.tipo.toLowerCase() === 'café de origen').length;
     this.totalBlend = this.cafes.filter(cafe => cafe.tipo.toLowerCase() === 'blend').length;
   }
 
